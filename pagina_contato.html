@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css_pagina_contato.css">
+</head>
+<body>
+    <div class="divisao-centralizada">
+        <h1>Contato</h1>
+        <p>Fale com nossa equipe de advogados especializados</p>
+    </div>
+    <div class="container">
+        <h2>Preencha o formulário abaixo e entraremos em contato com você em breve</h2>
+
+<form action="submit" method="POST" class="form-centralizado">
+    <div class="campos-grupo">
+        <div class="campo">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+        </div>
+
+        <div class="campo">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+        </div>
+
+        <div class="campo">
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="(11) 91234-5678" required>
+        </div>
+
+        <div class="campo">
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto" required>
+        </div>
+
+        <button type = "submit">Enviar</button>
+    </div>
+</form>
